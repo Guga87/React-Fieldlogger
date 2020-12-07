@@ -1,0 +1,79 @@
+*****************************************************************************************************************
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+*****************************************************************************************************************
+-----------------------------------------------------------------------------------------------------------------
+Endereço: http://192.168.15.208/channels.xml
+-----------------------------------------------------------------------------------------------------------------
+<Channels>
+	<DeviceTag>OwnEnergy10</DeviceTag>
+	<SerialNumber>20180038</SerialNumber>
+	<EnabledAnalogChannels>6</EnabledAnalogChannels>
+	<EnabledDigitalChannels>0</EnabledDigitalChannels>
+	<EnabledRemoteChannels>0</EnabledRemoteChannels>
+	<EnabledVirtualChannels>0</EnabledVirtualChannels>
+<AnalogChannels>
+	<Channel>
+	<Tag>Radiação Solar</Tag>
+	<Value> 238.4</Value>
+	<Unit>W/m²</Unit>
+	<Logged>Yes</Logged>
+	</Channel>
+<Channel>
+	<Tag>Velocidade.Vento</Tag>
+	<Value> 0.8</Value>
+	<Unit>m/s</Unit>
+	<Logged>Yes</Logged>
+	</Channel>
+<Channel>
+	<Tag>Direção.Vento</Tag>
+	<Value> 163.0</Value>
+	<Unit>°</Unit>
+	<Logged>Yes</Logged>
+	</Channel>
+<Channel>
+	<Tag>Temperatura.Ar</Tag>
+	<Value> 27.1</Value>
+	<Unit>°C</Unit>
+	<Logged>Yes</Logged>
+	</Channel>
+<Channel>
+	<Tag>Umidade</Tag>
+	<Value> 61.4</Value>
+	<Unit>%</Unit>
+	<Logged>Yes</Logged>
+	</Channel>
+<Channel>
+	<Tag>Temp.Contato</Tag>
+	<Value> 36.2</Value>
+	<Unit>ºC</Unit>
+	<Logged>Yes</Logged>
+	</Channel>
+</AnalogChannels>
+<VirtualChannels/>
+</Channels>
+------------------------------------------------------------------------------------------------------------------
+http://192.168.15.208/status.xml
+------------------------------------------------------------------------------------------------------------------
+<ConfigurationStatus>
+<DeviceTag>OwnEnergy10</DeviceTag>
+<SerialNumber>20180038</SerialNumber>
+<FirmwareVersion>1.66</FirmwareVersion>
+<Date>2020/12/04</Date>
+<Time>16:29:20</Time>
+<AnalogScanInterval> 1000</AnalogScanInterval>
+<LoggingInterval> 1</LoggingInterval>
+<ModbusMode>Slave </ModbusMode>
+<SlaveAddress>001</SlaveAddress>
+<LoggingMemory>Flash</LoggingMemory>
+<StartLoggingMode>Immediately</StartLoggingMode>
+<StopLoggingMode>Circular Memory</StopLoggingMode>
+<Logging>Logging</Logging>
+<FlashMemorySize>2162688</FlashMemorySize>
+<FlashMemoryFreeSpace>2162688</FlashMemoryFreeSpace>
+<SdCardInserted>Yes</SdCardInserted>
+<UsbFlashDriveInserted>No</UsbFlashDriveInserted>
+<HmiInserted>No</HmiInserted>
+</ConfigurationStatus>
+------------------------------------------------------------------------------------------------------------------
+http://192.168.15.208/alarms.xml
+------------------------------------------------------------------------------------------------------------------
